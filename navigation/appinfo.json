@@ -1,0 +1,13 @@
+{
+  "id": "com.navigation.app",
+  "version": "1.0.0",
+  "vendor": "My Company",
+  "type": "web",
+  "main": "select.html",
+  "title": "navigation",
+  "icon": "./img/icon.png",
+  "requiredPermissions": [
+    "time.query",
+    "activity.operation"
+  ]
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <link rel="stylesheet" href="list_style.css">
+
+    </head>
+    </head>
+    <body>
+        <div class="main_div">
+            <div class="left_side">
+                <div class="thum_img" id ="thum_img"></div>
+
+                <div class="buttons">
+                    <button class="previous" onclick="previousVideo();"><i class="fas fa-step-backward"></i></button>
+                    <button class="start" id="start" onclick="playToggle();"><i class="fas fa-play"></i></span></button>
+                    <button class="next" onclick="nextVideo();"><i class="fas fa-step-forward"></i></button>
+                </div>
+            </div>
+
+            <div class="right_side">
+                <div class="main" id="main">
+                    
+                    <div class="add_btn">
+                        <button class="add"><i class="fas fa-plus"></i></button>
+                    </div>
+                </div>
+
+                <div class="playlist" id="playlist"></div>
+            </div>
+        </div>
+        <script src="main.js"></script>
+        <script src="list_play_script.js"></script>
+
+        <script language="javascript">
+            temp = location.href.split("?");
+            data = temp[1];
+            document.getElementById("main").innerHTML = `
+            <p class="title_1" id="title">${data}</p><p class="title_2">의 playlist</p>`;
+        </script>
+    </body>
+</html>

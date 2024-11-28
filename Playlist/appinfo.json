@@ -1,0 +1,14 @@
+{
+  "id": "com.playlist.db",
+  "version": "1.0.0",
+  "vendor": "My Company",
+  "type": "web",
+  "main": "main_page/select.html",
+  "title": "playlist",
+  "icon": "image/icon.png",
+  "requiredPermissions": [
+    "time.query",
+    "activity.operation",
+    "database.operation"
+  ]
+}

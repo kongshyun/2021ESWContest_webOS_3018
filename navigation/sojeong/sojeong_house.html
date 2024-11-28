@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Sojeong's Navigation
+        </title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="../css/Nav.css"/>
+    </head>
+    <body>
+
+
+<ul id="menu001">
+    <li><p id="clock"></p></li>
+    <li><img src="../img/user.png" width="15" height="15"></a>sojeong</li>
+    <li><span><img src="../img/find.png"></span></li> 
+    <li><span><a href="sojeong_house.html"><img src="../img/house.png"></a></span></li> 
+    <li><span><a href="sojeong_company.html"><img src="../img/company.png"></a></span></li>
+ </ul>
+
+
+
+ <ul id="menu002">
+    <li id="recs">추천경로</li>
+    <li class="rec">추천경로1</li>
+    <li class="rec">추천경로2</li>
+    <li class="rec">추천경로3</li>
+    <li id="desinfo"><span id="des"><img src="../img/des.png" width="20" height="20">갤러리아포레</span> &nbsp;&nbsp;<span id="km">앞으로 9km</span><br/>
+        <span id="timeremaining">소요시간: 16분</span> &nbsp;<span id="price">요금: 0원</span></li>
+        
+  </ul>
+
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <span class="close" id="mclose">x</span>
+      <p>스마트홈 제어를 시작하시겠습니까?</p>
+      <button id="Yes">예</button>
+      <button id="No">아니오</button>
+    </div>
+  </div>
+
+
+  <div id="YModal" class="modal">
+    <div class="modal-content">
+      <span class="close" id="yclose">x</span>
+      <p>스마트홈 제어를 시작합니다.</p>
+    </div>
+  </div>
+
+
+  <div id="NModal" class="modal">
+    <div class="modal-content">
+      <span class="close" id="nclose">x</span>
+      <p>스마트홈 제어를 시작하지 않습니다.</p>
+
+    </div>
+  </div>
+
+  <script>
+    var time = 960;
+    var des = 9000; 
+    var ishouse = true;
+    </script>
+
+<script src="../js/clock.js"></script>
+<script src="../js/KMremaining.js"></script>
+<script src="../js/Timeremaining.js"></script>
+<script src="../js/SHcontrol_script.js"></script>
+
+    </body>
+</html>

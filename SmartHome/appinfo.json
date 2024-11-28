@@ -1,0 +1,10 @@
+{
+    "id": "com.smarthome.app",
+    "version": "1.0.0",
+    "vendor": "My Company",
+    "type": "web",
+    "main": "page_01.html",
+    "title": "smarthome",
+    "icon": "image/icon.png",
+    "requiredPermissions": ["time.query", "activity.operation"]
+}

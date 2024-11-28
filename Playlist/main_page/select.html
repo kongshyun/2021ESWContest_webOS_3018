@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Music</title>
+        <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+        <link rel="stylesheet" href="select_style.css">
+        <script language="javascript">
+            function get_name(user){
+         location.href = "../sub_page/playlist_db8.html?" + user;
+       }
+       </script>
+    </head>
+
+
+    <body>
+        <div class="main_div">
+            <h1>Drivers</h1>
+            <div class="member_div">
+                <a href="#" onclick="javascript:get_name('sojeong')" class="lnk"><button class="btn"><span>sojeong</span></button></a>
+                <a href="#" onclick="javascript:get_name('heeran')" class="lnk"><button class="btn"><span>heeran</span></button></a>
+                <a href="#" onclick="javascript:get_name('bojeong')" class="lnk"><button class="btn"><span>bojeong</span></button></a>
+            </div>
+        </div>
+    </body>
+</html>
